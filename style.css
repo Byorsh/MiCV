@@ -171,21 +171,26 @@ footer ul li{
     border-radius: 60px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px
+    
 }
 
-.linkedin{
+.linkedin:hover{
+    transition: background-color .5s;
     background-color: #006191;
 }
 
-.instagram{
+.instagram:hover{
+    transition: background .5s;
     background: linear-gradient(to top right,#de001c,#bb018a);
 }
 
-.facebook{
+.facebook:hover{
+    transition: background-color .5s;
     background-color: #1771e6;
 }
 
-.github{
+.github:hover{
+    transition: background-color .5s;
     background-color: black;
     
 }
